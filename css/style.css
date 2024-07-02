@@ -1571,14 +1571,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .banner_part .bg_1 {
   background-image: url("../img/banner.png");
-  background-position: 60% 55%; /* 第一个值是水平位置，第二个值是垂直位置，这里设置为50% 0，表示水平方向向右移动50%，垂直方向保持顶部 */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.banner_part .bg_2 {
-  background-image: url("../img/banner1.png");
-  background-position: center; /* 第一个值是水平位置，第二个值是垂直位置，这里设置为50% 0，表示水平方向向右移动50%，垂直方向保持顶部 */
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1846,9 +1839,6 @@ a.elementor-button, .elementor-button:hover {
 }
 .animated_hero .single_banner_part .banner_iner h2 span {
   color: #ffc600;
-}
-.animated_hero .single_banner_part .banner_iner h2 br + span {
-    color: #FF0000;
 }
 @media (max-width: 767.98px) {
   .animated_hero .single_banner_part .banner_iner h2 {
@@ -2326,9 +2316,6 @@ a.elementor-button, .elementor-button:hover {
 }
 .banner_iner h2 span:nth-child(3) {
   color: #fe4b7b;
-}
-.banner_iner h2 br + span {
-    color: #04FFF3;
 }
 
 @media (min-width: 991px) {
