@@ -1571,7 +1571,7 @@ a.elementor-button, .elementor-button:hover {
 }
 .banner_part .bg_1 {
   background-image: url("../img/banner.png");
-  background-position: center;
+  background-position: 60% 55%; /* 第一个值是水平位置，第二个值是垂直位置，这里设置为50% 0，表示水平方向向右移动50%，垂直方向保持顶部 */
   background-repeat: no-repeat;
   background-size: cover;
 }
