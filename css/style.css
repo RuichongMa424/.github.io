@@ -4690,8 +4690,8 @@ a.elementor-button, .elementor-button:hover {
   }
 }
 .single_team_section p {
-  font-weight: 500;
-  font-size: 15px;
+    font-weight: 500;
+    font-size: 10px;
 }
 .single_team_section .teacher_category {
   font-size: 15px;
